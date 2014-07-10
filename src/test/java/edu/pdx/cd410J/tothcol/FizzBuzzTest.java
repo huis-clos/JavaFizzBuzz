@@ -10,12 +10,12 @@ import static org.junit.Assert.assertEquals;
 public class FizzBuzzTest {
 
     @Test
-    public void testPrintOne(){
+    public void test1PrintsOne(){
         assertEquals("FizzBuzz of one", "1", FizzBuzz.fizzbuzz(1));
     }
 
     @Test
-    public void testPrintFizz(){
+    public void test3PrintsFizz(){
         assertEquals("FizzBuzz of three", "fizz", FizzBuzz.fizzbuzz(3));
     }
 
