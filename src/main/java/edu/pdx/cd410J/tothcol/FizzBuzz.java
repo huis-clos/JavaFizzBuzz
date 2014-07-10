@@ -6,10 +6,10 @@ package edu.pdx.cd410J.tothcol;
 public class FizzBuzz {
 
     public static String fizzbuzz(int number) {
-        if(number == 1)
-            return "1";
-        else
+        if(number%3 == 0)
             return "fizz";
+        else
+            return ((Integer)number).toString();
     }
 
     public static void count(int number) {
