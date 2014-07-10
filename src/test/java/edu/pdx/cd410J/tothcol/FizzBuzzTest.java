@@ -14,4 +14,9 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz of one", "1", FizzBuzz.fizzbuzz(1));
     }
 
+    @Test
+    public void testPrintFizz(){
+        assertEquals("FizzBuzz of three", "fizz", FizzBuzz.fizzbuzz(3));
+    }
+
 }
