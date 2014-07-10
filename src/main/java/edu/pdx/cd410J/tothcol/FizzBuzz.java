@@ -10,6 +10,8 @@ public class FizzBuzz {
     }
 
     public static void count(int number) {
-        for (int i = 1; i < number: i++)
+        for (int i = 1; i < number; i++) {
+            fizzbuzz(i);
+        }
     }
 }
